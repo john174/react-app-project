@@ -51,6 +51,3 @@ For more information on deployment, refer to the [deployment section](https://fa
 
 We welcome contributions to MovieNestle. Please read our contributing guidelines before submitting a pull request.
 
-## License
-
-MovieNestle is open-sourced software licensed under the MIT license.
