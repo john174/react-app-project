@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# MovieNestle Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+MovieNestle is a React-based web application designed to provide movie enthusiasts with extensive information about movies. Powered by the IMDb API, it features a user-friendly interface for searching, sorting, and exploring movie details. From blockbusters to indie gems, MovieNestle offers a comprehensive guide to the world of cinema.
 
-In the project directory, you can run:
+## Key Features
 
-### `npm start`
+- **Home Page:** Welcomes users and introduces the site's purpose.
+- **Movies:** Users can search for movies by title and view detailed information, including release date, runtime, countries of origin, and more.
+- **Sorting:** Movies can be sorted by year or title, both ascending and descending.
+- **About Page:** Shares the developer's passion for movies and the site's backstory.
+- **Contact Us:** Allows users to reach out with questions, comments, or feedback.
+- **Responsive Design:** Ensures a great user experience on devices of all sizes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React:** For building the user interface.
+- **React Router:** To handle routing.
+- **Bootstrap:** For styling and responsive design.
+- **IMDb API:** To fetch movie data.
 
-### `npm test`
+## Setup and Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Clone the repository:
 
-### `npm run build`
+```bash
+git clone https://github.com/your-github-username/MovieNestle.git
+cd MovieNestle
+Install dependencies:
+bash
+Copy code
+npm install
+Set up environment variables:
+Create a .env file in the root directory and add your IMDb API key:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+dotenv
+Copy code
+REACT_APP_API_KEY=your_imdb_api_key
+Start the application:
+bash
+Copy code
+npm start
+The app will be available at http://localhost:3000.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Usage
+Navigate through the site using the navbar.
+Use the search bar to find movies by title.
+Click on "More info" on a movie card to view detailed information.
+Use the "Sort by Year" and "Sort by Title" buttons to sort the movie list.
+Contributing
+Contributions are welcome! If you have ideas for improvements or encounter any issues, please feel free to fork the repository, make changes, and submit a pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
