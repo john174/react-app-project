@@ -22,6 +22,7 @@ const Movies = () => {
     };
 
     loadMovies();
+    
 
     const handleBeforeUnload = () => setMovies([]);
 
