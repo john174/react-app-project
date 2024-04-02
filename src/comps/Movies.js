@@ -65,7 +65,7 @@ const Movies = () => {
         </button>
       </div>
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
-        {movies.map((movie, index) => (
+        {movies.map((movie, index) => (    //sort by year and title
           <div key={movie.id || index} className="col">
             <Card movie={movie} />
           </div>

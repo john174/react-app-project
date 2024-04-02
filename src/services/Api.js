@@ -1,4 +1,4 @@
-const apiKey = "0d26e16777mshae69cf52fe900aep117b1djsnf1f6c9d26cc4";
+const apiKey = "2ac2e686afmshc880501c3739e58p1c0266jsn7a61c0019050";
 const apiHost = "imdb8.p.rapidapi.com";
 
 export const makeApiRequest = async (url) => {
